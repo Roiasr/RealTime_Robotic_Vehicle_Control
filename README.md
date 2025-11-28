@@ -71,18 +71,19 @@ pip install pygame
 - Upload Arduino_Script.ino using Arduino IDE (USB).
 
 #### 3️⃣ Start the Raspberry Pi Bridge
-# Open SSH session (MobaXterm or terminal)
+- Open SSH session (MobaXterm or terminal):
 ssh pi@<RPI_IP>
-# Run the bidirectional bridge (RPi ⇄ Arduino ⇄ PC)
+- Run the bidirectional bridge (RPi ⇄ Arduino ⇄ PC):
 python3 bidirectional_bridge.py
 
 #### 4️⃣ Run PC Control + Force Feedback
-# In PowerShell / Terminal
+- In PowerShell / Terminal
 python robot_control_dev.py
 
 ### 5️⃣ Start Live Video Stream (Second SSH tab)
+- Open SSH session (MobaXterm or terminal):
 ssh pi@<RPI_IP>
-# MJPEG over HTTP on port 8080
+- MJPEG over HTTP on port 8080:
 libcamerify ustreamer \
  --device=/dev/video0 \
  --host=0.0.0.0 \
