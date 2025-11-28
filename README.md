@@ -23,7 +23,7 @@ Camera connected to Raspberry Pi   → MJPEG stream over HTTP (TCP protocol)   �
 
  **Electrical schematics and block diagrams are available in the `/diagrams/` folder.**
 
- ### 🧩 Hardware Used
+ ### Hardware Used
 | Component | Role |
 |-----------|------|
 | Raspberry Pi 4 | UDP/Serial bridge & video streaming |
@@ -43,6 +43,7 @@ Camera connected to Raspberry Pi   → MJPEG stream over HTTP (TCP protocol)   �
 | C++ / Arduino | Motor & sensor control logic |
 
 
+
 ## System Startup – Full Run Procedure
 ### Pre-flight Checklist
 
@@ -57,11 +58,13 @@ Camera connected to Raspberry Pi   → MJPEG stream over HTTP (TCP protocol)   �
 
 ### Install Dependencies (one time only)
 **On Raspberry Pi**
-sudo apt update
-sudo apt install python3-pip libcamera-dev
-pip3 install --upgrade pyserial
+
+    sudo apt update
+    sudo apt install python3-pip libcamera-dev
+    pip3 install --upgrade pyserial
 **on pc**
-pip install pygame
+
+    pip install pygame
 
 ### Run Order
 #### 1️⃣ Connect the Joystick
