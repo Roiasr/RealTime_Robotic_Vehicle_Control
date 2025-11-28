@@ -82,7 +82,8 @@ python robot_control_dev.py
 
 ### 5️⃣ Start Live Video Stream (Second SSH tab)
 - Open SSH session (MobaXterm or terminal):
-  ssh pi@<RPI_IP>
+
+     ssh pi@<RPI_IP>
 - MJPEG over HTTP on port 8080:
 libcamerify ustreamer \
  --device=/dev/video0 \
