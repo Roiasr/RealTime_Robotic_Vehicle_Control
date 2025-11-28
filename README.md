@@ -72,30 +72,35 @@ pip install pygame
 
 #### 3️⃣ Start the Raspberry Pi Bridge
 - Open SSH session (MobaXterm or terminal):
-  ssh pi@<RPI_IP>
+
+    ssh pi@<RPI_IP>
 - Run the bidirectional bridge (RPi ⇄ Arduino ⇄ PC):
-  python3 bidirectional_bridge.py
+
+    python3 bidirectional_bridge.py
 
 #### 4️⃣ Run PC Control + Force Feedback
-- In PowerShell / Terminal
-python robot_control_dev.py
+- In PowerShell / Terminal:
+
+    python robot_control_dev.py
 
 ### 5️⃣ Start Live Video Stream (Second SSH tab)
 - Open SSH session (MobaXterm or terminal):
 
      ssh pi@<RPI_IP>
 - MJPEG over HTTP on port 8080:
-libcamerify ustreamer \
- --device=/dev/video0 \
- --host=0.0.0.0 \
- --port=8080 \
- --encoder=m2m-jpeg \
- --desired-fps=20 \
- --resolution=800x600 \
- --format=YUYV
+
+    libcamerify ustreamer \
+    --device=/dev/video0 \
+    --host=0.0.0.0 \
+    --port=8080 \
+    --encoder=m2m-jpeg \
+    --desired-fps=20 \
+    --resolution=800x600 \
+    --format=YUYV
 
  ### 6️⃣ View the Live VR Stream
-- On **Meta Quest 3 Browser** 
-  http://<RPI_IP>:8080/
+- On Meta Quest 3 Browser:
+
+    http://<RPI_IP>:8080/
 
   
