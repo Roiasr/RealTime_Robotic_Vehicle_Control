@@ -34,6 +34,7 @@ Camera connected to Raspberry Pi   â†’ MJPEG stream over HTTP (TCP protocol)   â
 | Microsoft SideWinder Force Feedback 2 | Joystick with vibration feedback |
 | L298N Motor Driver | Controls DC motors |
 | AP63357 DC-DC convertor | Regulated 5V for servo |
+| Meta Quest 3 VR Headset | First-person immersive visual interface |
 
 ### Programming Languages
 | Language | Purpose |
