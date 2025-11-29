@@ -107,4 +107,8 @@ Camera connected to Raspberry Pi   → MJPEG stream over HTTP (TCP protocol)   �
 
     http://<RPI_IP>:8080/
 
+ 
+A full demonstration of the **robotic vehicle control system in action**  
+is available in the **`/media/`** folder 📂
+
   
