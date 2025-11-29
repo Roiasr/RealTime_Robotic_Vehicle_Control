@@ -2,7 +2,7 @@
 A real-time robotic vehicle control system using joystick control with force-feedback and a VR visual interface to enhance field awareness and decision making.
 
 ## Motivation 
-In hazardous or hard to reach environments, robotic vehicles are often used instead of humans. However, traditional remote-control systems provide **limited awareness**, making it difficult for the operator to understand the robot’s real time surroundings.
+In hazardous or hard to reach environments, robotic vehicles are often used instead of humans. However, traditional remote control systems provide **limited awareness**, making it difficult for the operator to understand the robot’s real time surroundings.
 
 This project improves **human robot interaction** using:
 - **VR first person visual interface** – view through the robot’s eyes  
